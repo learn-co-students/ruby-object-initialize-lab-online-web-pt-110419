@@ -1,4 +1,4 @@
-def Person
+class Person
  def initialize(name)
    @name = name
  end
@@ -6,6 +6,7 @@ def Person
  def name
    @name
  end
+
 end
 
 #beyonce = Person.new("Beyonce")
